@@ -9,7 +9,7 @@ int beautifulPairs(vector<int> A, vector<int> B) {
         b_count[B[i]]++;
     }
     
-    for(int i = 0 ; i < 1000; i++){
+    for(int i = 0 ; i <= 1000; i++){
         res += min(a_count[i],b_count[i]);
     }
     
