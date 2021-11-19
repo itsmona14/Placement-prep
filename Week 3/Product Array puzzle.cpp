@@ -4,8 +4,8 @@ vector<long long int> productExceptSelf(vector<long long int>& nums, int n) {
        
         //code here      
         vector<long long int> v;
-        long long int product = 1;
-        long long int product0 = 1; 
+        long long int product = 1;  //product with 0
+        long long int product0 = 1; //product without 0
         int zero = 0;
         for(int i = 0 ; i < n ; i++){
             product *= nums[i];
